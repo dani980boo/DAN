@@ -2,10 +2,11 @@ var somar = require("./modulos/somar");
 var media = require("./modulos/media");
 var multi = require("./modulos/multi");
 var sub = require("./modulos/sub");
-var div = require("./modulos/div");
+var message = require("./modulos/message");
 
-console.log(somar(20,90));
-console.log(media(20,90));
-console.log(multi(20,90));
-console.log(sub(20,90));
-console.log(div(20,90));
+console.log("A soma de X e Y é: " + somar(45,30));
+console.log("A média de X e Y é: " + media(12,18));
+console.log("A multiplicação de X e Y é: " + multi(47,25));
+console.log("A subtração de X e Y é: " + sub(87,34));
+console.log(message(" - DJ Daninho"));
+
